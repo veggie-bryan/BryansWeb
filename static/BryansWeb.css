@@ -57,7 +57,7 @@ background-color: rgb(62, 165, 224);
     background-color: rgb(243, 245, 147);
     padding: 1rem;
     border-radius: 0.5rem;
-    border: 1px;
+    border: 1px solid #faec70;
 }
 
 #my-goals {
