@@ -18,6 +18,13 @@ background-color: rgb(38, 180, 74);
     left: 35px;
 }
 
+#Trumpet-Frog {
+    width: 100px;
+    position: absolute;
+    top: 15px;
+    left: 450px;
+}
+
 #directory {
     list-style: none;
     display: flex;
