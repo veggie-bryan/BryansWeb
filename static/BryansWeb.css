@@ -12,31 +12,57 @@ background-color: rgb(62, 165, 224);
 
 #main-title {
     font-family:'Courier New', Courier, monospace;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     position: absolute;
-    top: 0px;
-    left: 35px;
+    top: -20px;
+    left: 150px;
+}
+
+#intro {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 175px;
+    left: 0px;
 }
 
 #Trumpet-Frog {
-    width: 100px;
+    width: 150px;
     position: absolute;
     top: 15px;
-    left: 450px;
+    left: 0px;
 }
 
 #directory {
     list-style: none;
     display: flex;
     position: absolute;
-    top: 90px;
-    left: 0px;
+    top: 110px;
+    left: 100px;
 }
+
 #directory li::before {
     content: ">";
 }
 
-#main-text {
+#CSULB {
+    width: 550px;
     position: absolute;
-    top: 135px;
+    top: 15px;
+    right: 15px;
+    border-radius: 1rem;;
+}
+
+.rounded-block {
+    background-color: rgb(243, 245, 147);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px;
+}
+
+#my-goals {
+    width: 450px;
+    position: absolute;
+    top: 400px;
+    right: 15px;
 }
