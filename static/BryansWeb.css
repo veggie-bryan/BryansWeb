@@ -2,31 +2,34 @@
 
 
 body {
-
-background-color: rgb(90, 191, 225);
-
+background-color: rgb(38, 180, 74);
 }
 
 #main-body {
-    font-family:'Courier New', Courier, monospace
-    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.25rem;
 }
 
 #main-title {
-    font-size: 2.5rem;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3.5rem;
     position: absolute;
     top: 0px;
-    left: 10px;
-}
-
-#paragraph1 {
-    position: absolute;
-    top: 70px;
-    left: 10px;    
+    left: 35px;
 }
 
 #directory {
+    list-style: none;
+    display: flex;
     position: absolute;
-    top: 125px;
-    left: 10px;
+    top: 90px;
+    left: 0px;
+}
+#directory li::before {
+    content: ">";
+}
+
+#main-text {
+    position: absolute;
+    top: 135px;
 }
