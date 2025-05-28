@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+body {
+
+background-color: rgb(90, 191, 225);
+
+}
+
+#main-body {
+    font-family:'Courier New', Courier, monospace
+    font-weight: 400;
+}
+
+#main-title {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+#paragraph1 {
+    position: absolute;
+    top: 70px;
+    left: 10px;    
+}
+
+#directory {
+    position: absolute;
+    top: 125px;
+    left: 10px;
+}
