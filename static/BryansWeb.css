@@ -2,55 +2,30 @@
 
 
 body {
-background-color: rgb(62, 165, 224);
-}
-
-#main-body {
+    background-color: rgb(62, 165, 224);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.25rem;
+    font-size: clamp(1.5rem, 6vw, 2.25rem);
 }
 
-#main-title {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 2.5rem;
-    position: absolute;
-    top: -20px;
-    left: 150px;
-}
-
-#intro {
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    top: 175px;
-    left: 0px;
-}
-
-#Trumpet-Frog {
-    width: 150px;
-    position: absolute;
-    top: 15px;
-    left: 0px;
-}
-
-#directory {
-    list-style: none;
+.flex-wrapper {
     display: flex;
-    position: absolute;
-    top: 110px;
-    left: 100px;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
 }
 
-#directory li::before {
-    content: ">";
+.alight-left {
+    margin-left: auto
 }
 
-#CSULB {
-    width: 550px;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    border-radius: 1rem;;
+.align-right {
+    margin-right: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rounded-block {
@@ -60,9 +35,65 @@ background-color: rgb(62, 165, 224);
     border: 1px solid #faec70;
 }
 
-#my-goals {
-    width: 450px;
-    position: absolute;
-    top: 400px;
-    right: 15px;
+.header-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.block img {
+    width: 100%;
+    max-width: 400px;
+}
+
+#main-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    justify-content: center;
+    text-align: center;
+    flex: 1 1 300px;
+    min-width: 10%;
+}
+
+#intro {
+    font-size: 2vw;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#directory {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+}
+
+#directory li::before {
+    content: ">";
+}
+
+#main-text {
+    font-size: 2vw;
+    float: left;
+    width: 57%;
+}
+
+#sidebar {
+    font-size: 2vw;
+    float: right;
+    width: 35%;
+}
+
+#Trumpet-Frog {
+    width:15%;
+    height:auto;
+}
+
+#CSULB {
+    width:25%;
+    height:auto;
+    border-radius:1rem;
+
 }
