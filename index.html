@@ -23,15 +23,21 @@
 
         </header>
         
-        <img clas="align-right" id="CSULB" src="static/CSULB.jpg" alt="CSULB">
+        <img class="align-right" id="CSULB" src="static/CSULB.jpg" alt="CSULB">
 
       </div>
 
       <nav>
         <ul id="directory" class="align-left">
-          <li><a href="BryansWeb.html">Home</a>&nbsp&nbsp&nbsp</li>
-          <li><a href="about.html">Projects</a>&nbsp&nbsp&nbsp</li>
-          <li><a href="contact.html">Contact</a>&nbsp&nbsp&nbsp</li>
+          <li><a href="index.html">Home</a>&nbsp&nbsp&nbsp</li>
+          <li class="dropdown">
+            <a href="#">Projects</a>
+            <ul class="dropdown-menu">
+              <li><a href="project1.html">Project 1</a></li>
+              <li><a href="project2.html">Project 2</a></li>
+              <li><a href="project3.html">Project 3</a></li>
+            </ul>
+          <li><a href="mailto:bryanaserrano3@gmail.com">Contact Me!</a>&nbsp&nbsp&nbsp</li>
         </ul>
       </nav>
 
@@ -46,14 +52,14 @@
 
       <div id="main-text" class="rounded-block">
         <h2>My Experience:</h2>
-          <h3>The Aerospace Corporation, Graduate Thermal Engineering Intern</h3>
+          <h3>The Aerospace Corporation, Thermal Engineering Intern</h3>
             <p>
               TBD (◑‿◐)
             </p>
           <h3>Varda Space Industries, Thermal Engineering Intern</h3>
               <p>
                 > Ran flight studies to determine the thermal sensitivty of our spacecraft to attitude deltas and assured all components (structural/propulsion/avionics/etc.) were not approaching or surpassing operational limits. <br><br>
-                > Redesigned reentry vehicle thermal model components to cut down run times by reducting node/element count while retaining accurate temperature gradients/heat flows and helped anchor "bang-bang" heater transient behavior. <br><br>
+                > Redesigned reentry vehicle thermal model components to cut down run times by reducing node/element count while retaining accurate temperature gradients/heat flows and helped correlate "bang-bang" heater transient behavior. <br><br>
                 > Reworked post-processing script's data structure and looping configuration to improve run times (400s --> 30s) and added imporved visual display + storage features.
               </p>
           <h3>Rocket Lab, Thermal Engineering Intern</h3>
@@ -64,9 +70,9 @@
               </p>
           <h3>Millennium Space Systems, Engineering Intern</h3>
               <p>
-                > Created burn-in test procedure for a satellite PCBA to assure it could withstand extreme temperatures in space. <br><br>
+                > Created burn-in test procedure for satellite PCBA to assure it could withstand extreme temperatures in space. <br><br>
                 > Performed root cause investigations and implemented corrective actions on manufacturing and supply chain discrepancies. <br><br>
-                > Led the transition of the As-Run review process from the DCM to the quality team to minimize potential errors in numerical values: proper instrument calibration and temperature, humidity, resistance, and voltage ranges.
+                > Led the transition of the As-Run review process from the document control to the quality team to minimize potential errors in numerical values: proper instrument calibration and temperature, humidity, resistance, and voltage ranges.
               </p>
           <h3>College of Engineering, Tutor</h3>
               <p>
@@ -88,6 +94,10 @@
           >Pass graduate linear algebra. <br><br>
           >Have a sucessful internship <br> @ The Aerospace Corp. <br><br>
         </p>
+      </div>
+
+      <div id="project-display" class="rounded-block">
+        <h2>Latest & Greatest:</h2>
       </div>
 
     </main>
