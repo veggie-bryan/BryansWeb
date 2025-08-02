@@ -213,14 +213,3 @@ body {
     object-fit: contain; /* show full image, no cropping */
     display: block;
 }
-
-/* Example: specific image styles (optional) */
-.blog-image.bubble-run {
-    /* You can add unique styles for bubbleRun.jpg if needed */
-}
-
-.blog-image.chicken-hold {
-    /* Unique styles for chickenHold.jpg */
-}
-
-/* ...repeat for other images if you want custom styles... */
