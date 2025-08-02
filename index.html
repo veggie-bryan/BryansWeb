@@ -4,107 +4,93 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bryan's Web</title>
-
   <link rel="stylesheet" href="static/BryansWeb.css">
 </head>
 
+<body class="flex-wrapper">
+  <main>
+    <div class="header-row">
+      <img id="Trumpet-Frog" class="align-left" src="static/trumpet-frog.jpg" alt="Trumpet Frog">
+      <header id="main-title">
+        <h1>Bryan's Web :]</h1>
+      </header>
+      <img class="align-right" id="CSULB" src="static/CSULB.jpg" alt="CSULB">
+    </div>
 
+    <nav>
+      <ul id="directory" class="align-left">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Projects</a>
+          <ul class="dropdown-menu">
+            <li><a href="project1.html">Project 1</a></li>
+            <li><a href="project2.html">Project 2</a></li>
+            <li><a href="project3.html">Project 3</a></li>
+          </ul>
+        <li><a href="mailto:bryanaserrano3@gmail.com">Contact Me!</a>&nbsp&nbsp&nbsp</li>
+      </ul>
+    </nav>
 
-  <body id="main-body"  class="flex-wrapper">
-    <main>
+    <p id="intro" class="rounded-block text-block">
+      Hi, I'm Bryan! I'm a graduate mechanical engineering student at USC with an interest in the thermofluid sciences.
+      This is a small showcase of myself. Enjoy. ^-^
+    </p>
 
-      <div class="header-row">
-
-        <img id="Trumpet-Frog" class="align-left" src="static/trumpet-frog.jpg" alt="Trumpet Frog">
-        
-        <header id="main-title">
-
-          <h1>Bryan's Web :]</h1>
-
-        </header>
-        
-        <img class="align-right" id="CSULB" src="static/CSULB.jpg" alt="CSULB">
-
+    <div class="content-row">
+      <div class="main-column">
+        <div id="latest-blog" class="rounded-block text-block">
+          <h2>Latest Blog:</h2>
+          <p>
+            For the latest Bryan's life, check out my blog:
+            <a href="MyBlogs/20250802.html">Read Here!</a>
+          </p>
+        </div>
+        <div id="main-text" class="rounded-block text-block main-content">
+          <h2>My Experience:</h2>
+            <h3>The Aerospace Corporation, Graduate Thermal Engineering Intern</h3>
+              <p>
+                > Oscillating heat pipe RnD testing / modeling. (◑‿◐) <br><br>
+              </p>
+            <h3>Varda Space Industries, Thermal Engineering Intern</h3>
+              <p>
+                > Made contributions to W-4 TVAC testing, flight case studies, and general modeling/scripting work. <br><br>
+              </p>
+            <h3>Rocket Lab, Thermal Engineering Intern</h3>
+              <p>
+                > Led honeycomb panel dev test and supported NASA EscaPADE with TVAC TCS installation, model correlation, and collecting thermal-optical data for tape samples. <br><br>
+              </p>
+            <h3>Millennium Space Systems, Engineering Intern</h3>
+              <p>
+                  > Created burn-in test procedure for satellite PCBA and reviewed EIDPs / As-Run assembly & test. <br><br>
+              </p>
+            <h3>College of Engineering, Tutor</h3>
+              <p>
+                  > Helped students better understand concepts in statics, thermo, fluids, MATLAB, and other engineering courses. <br><br>
+              </p>
+        </div>
       </div>
 
-      <nav>
-        <ul id="directory" class="align-left">
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown">
-            <a href="#">Projects</a>
-            <ul class="dropdown-menu">
-              <li><a href="project1.html">Project 1</a></li>
-              <li><a href="project2.html">Project 2</a></li>
-              <li><a href="project3.html">Project 3</a></li>
-            </ul>
-          <li><a href="mailto:bryanaserrano3@gmail.com">Contact Me!</a>&nbsp&nbsp&nbsp</li>
-        </ul>
-      </nav>
-
-
-
-      <p id="intro" class="rounded-block">
-        Hi, my name is Bryan! I'm a mechanical engineering graduate student at USC specializing in thermofluids.
-        This is a small showcase of my projects, goals, and interests. Enjoy :)
-      </p>
-
-
-
-      <div id="main-text" class="rounded-block">
-        <h2>My Experience:</h2>
-          <h3>The Aerospace Corporation, Thermal Engineering Intern</h3>
-            <p>
-              > TBD (◑‿◐) <br><br>
-            </p>
-          <h3>Varda Space Industries, Thermal Engineering Intern</h3>
-              <p>
-                > Ran flight studies to determine the thermal sensitivty of our spacecraft to attitude deltas and assured all components (structural/propulsion/avionics/etc.) were not approaching or surpassing operational limits. <br><br>
-                > Redesigned reentry vehicle thermal model components to cut down run times by reducing node/element count while retaining accurate temperature gradients/heat flows and helped correlate "bang-bang" heater transient behavior. <br><br>
-                > Reworked post-processing script's data structure and looping configuration to improve run times (400s --> 30s) and added imporved visual display + storage features. <br><br>
-              </p>
-          <h3>Rocket Lab, Thermal Engineering Intern</h3>
-              <p>
-                > Led honeycomb panel dev test to capture anisotropic conductivity properties and effects of adhesive failure on TC install: performed hand calcs, wrote procedure, ran sim cases, set up harness/DAQ/coupon, correlated, and post processed results. <br><br>
-                > Helped with NASA EscaPADE thermal control system assembly and test: multi-layer insulation, thermocouples, heaters. <br><br>
-                > Assisted with correlations by refining initial finite element model of IR camera to better represent TVAC test temperatures and collected thermal-optical data (emissivity/absorptivity) of tape samples using emissometer. <br><br>
-              </p>
-          <h3>Millennium Space Systems, Engineering Intern</h3>
-              <p>
-                > Created burn-in test procedure for satellite PCBA to assure it could withstand extreme temperatures in space. <br><br>
-                > Performed root cause investigations and implemented corrective actions on manufacturing and supply chain discrepancies. <br><br>
-                > Led the transition of the As-Run review process from the document control to the quality team to minimize potential errors in numerical values: proper instrument calibration and temperature, humidity, resistance, and voltage ranges. <br><br>
-              </p>
-          <h3>College of Engineering, Tutor</h3>
-              <p>
-                > Helped students understand concepts in fluids, thermo, power plant design, MATLAB, and other engineering courses. <br><br>
-              </p>
+      <div class="sidebar-column">
+        <div id="sidebar" class="rounded-block text-block sidebar">
+          <h2>My Goals:</h2>
+          <p> 
+            > Finish grad school. <br><br>
+            > Finish thermal coding project. <br><br>
+            > Create a desk RaspPi dashboard. <br><br>
+            > Train for a half marathon. <br>  
+          </p>
+        </div>
+        <div id="project-display" class="rounded-block text-block sidebar">
+          <h2>Latest & Greatest:</h2>
+        </div>
       </div>
+    </div>
 
+  </main>
 
-
-      <div id="sidebar" class="rounded-block">
-        <h2>My Personal Goals:</h2>
-        <p> 
-          >Finish this personal website. <br><br>
-          >Create a desk RaspPi dashboard. <br><br>
-          >Train for a half marathon. <br>  
-        </p>
-        <h2>Academic/Professional Goals:</h2>
-        <p>
-          >Pass graduate linear algebra. <br><br>
-          >Have a sucessful internship <br> @ The Aerospace Corp. <br><br>
-        </p>
-      </div>
-
-      <div id="project-display" class="rounded-block">
-        <h2>Latest & Greatest:</h2>
-      </div>
-
-    </main>
-
-    <footer id="footer">
-        thanks for making it to the bottom, bye! <br><br>
-        this site was made by myself from scratch using html & css.
-    </footer>
-  </body>
+  <footer id="footer">
+      thanks for making it to the bottom, bye! <br><br>
+      this site was made by myself from scratch using html & css.
+  </footer>
+</body>
 </html>
